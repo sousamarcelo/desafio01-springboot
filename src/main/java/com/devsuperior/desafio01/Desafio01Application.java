@@ -35,7 +35,7 @@ public class Desafio01Application implements CommandLineRunner {
 		list.add(order3);
 		
 		for (Order order : list) {
-			System.out.println("\nPedido códito " + order.getCode());
+			System.out.println("\nPedido código " + order.getCode());
 			System.out.println("Valor total: R$ " + String.format("%.2f", orderService.total(order)));
 		}		
 	}
